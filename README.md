@@ -1,5 +1,3 @@
-Here's a suggested README for your project:
-
 ---
 
 # WBA Q3 2024 Rust Registration Task
@@ -7,8 +5,6 @@ Here's a suggested README for your project:
 This project is part of the WBA Q3 2024 Registration Task, where you'll perform key blockchain operations on the Solana network using Rust. The tasks include generating keypairs, converting keypair formats, transferring SOL, emptying a dev wallet to a WBA wallet, and enrolling on-chain with the WBA program.
 
 ## Prerequisites
-
-Before running the project, ensure you have the following dependencies in your `Cargo.toml` file:
 
 ```toml
 [dependencies]
@@ -46,19 +42,4 @@ solana-idlgen = { git = "https://github.com/deanmlittle/solana-idlgen.git" }
 6. **Enroll in WBA**
 
    The `enroll_wba` function enrolls you on-chain with the WBA program by interacting with the `WbaPrereqProgram` and passing the necessary arguments.
-
-## How to Run
-
-To run the tests, use:
-
-```bash
-cargo test
-```
-
-Each function corresponds to a different task and can be run individually by specifying the function name. For example, to run the `keygen` function:
-
-```bash
-cargo test keygen -- --nocapture
-```
-
 ---
