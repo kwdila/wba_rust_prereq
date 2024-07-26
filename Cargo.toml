@@ -1,0 +1,10 @@
+[package]
+name = "wba_rust_prereq"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bs58 = "0.5.1"
+solana-client = "2.0.3"
+solana-program = "2.0.3"
+solana-sdk = "2.0.3"
