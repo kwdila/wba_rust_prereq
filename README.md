@@ -6,6 +6,9 @@ This project is part of the WBA Q3 2024 Registration Task, where you'll perform 
 
 ## Prerequisites
 
+Before running the project, ensure you have the following dependencies in your `Cargo.toml` file:
+
+
 ```toml
 [dependencies]
 borsh = "1.5.1"
